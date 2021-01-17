@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './components/test';
+// import TestOOP from './components/OOP/testOOP';
+import TestFP from './components/Functional/testFP';
 
 function App() {
   return (
     <div className="App">
-      <Test />
+      {/* <TestOOP /> */}
+      <TestFP />
     </div>
   );
 }
